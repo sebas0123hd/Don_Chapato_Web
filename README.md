@@ -2,7 +2,7 @@
 
 ## Nuestra imagen
 
---------------------------------------![Nuestro Logo](https://github.com/0SAlexisA/Don-Chapaton/blob/main/static/imagenesmenu/Don%20chapaton.jpg)
+                                                               ![Nuestro Logo](https://github.com/0SAlexisA/Don-Chapaton/blob/main/static/imagenesmenu/Don%20chapaton.jpg)
 
 ## Nuestra Histioria
 En Don Chapato, comenzamos nuestra historia hace más de dos años, con la misión de traer la mejor 
