@@ -1,8 +1,4 @@
 # Don_Chapato_Web
-# Don-Chapaton
-Don Chapaton es la pagina que podrá ayudar a las Micro empresas para poder manejar la información 
-de los clientes, como de los pedidos que solicitan en esta se le muestra al usuario el menú y las
-direcciones de las sucursales.
 
 ## Nuestra imagen
 
