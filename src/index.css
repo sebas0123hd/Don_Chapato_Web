@@ -1,13 +1,277 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
+
+.Barra {
+  background-color: #F09F54 !important;
+  color: gray;
+}
+
+.footer {
+  text-align: center;
+  background-color: gray !important;
+}
+
+.titulo1 {
+  color: gray;
+  text-align: center;
+}
+
+.fondo {
+  background-color: #FECB8B !important;
+}
+
+.derechos {
+  text-align: center;
+}
+
+.barra-text {
+  color: black;
+}
+
+.container-home {
+  display: flex;
+  align-items: center;
+  padding: 30px 60px; /* Espaciado interno */
+
+}
+
+.img1 {
+  width: 180px; /* Ajuste de tamaño */
+  height: auto;
+  margin-right: 60px; /* Espacio entre la imagen y el texto */
+  border-radius: 10px;
+}
+
+.texto-home {
+  max-width: 600px;
+}
+
+.h2-home1 {
+  margin: 0;
+  color: #000;
+  font-size: 24px;
+}
+
+.h2-home2 {
+  margin: 0;
+  color: #000;
+  font-size: 24px;
+  padding: 40px
+}
+
+.p-home1 {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.listInt {
+  width: 100%;
+  max-width: 990px;
+  background-color: #fcd9a3 !important;
+  border: 2px solid #201f1f; /* Borde alrededor de la lista */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 16px; /* Espaciado interno */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.listInt .MuiListItemText-primary {
+  font-size: 1.4rem; /* Texto principal más grande */
+  font-weight: bold;
+}
+
+.listInt .MuiListItemText-secondary {
+  font-size: 1.2rem; /* Texto secundario más grande */
+}
+
+.img-list-int {
+  width: 60px !important; /* Aumenta el tamaño del Avatar */
+  height: 60px !important; /* Mantiene la proporción */
+  margin-right: 60px;
+}
+
+.sidebar .MuiListItem-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar .MuiSvgIcon-root {
+  font-size: 40px; /* Tamaño del icono */
+  color: #F09F54; /* Color del icono */
+}
+
+.sidebar .MuiListItemText-primary {
+  color: #F09F54; /* Color del texto */
+}
+
+.perfil {
+  background-color: #fcd9a3 !important;
+  border-color: #F09F54 !important;
+}
+
+
+.swiper-container {
+  width: 60%;
+  height: 60%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 0;
+}
+
+
+
+.butonI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px; /* Altura del contenedor, para que se vea el centrado */
+}
+
+.butonI1 {
+  background-color: dodgerblue !important;
+  align-items: center;
+}
+
+.butonI2 {
+  background-color: gray !important;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.img-redes {
+  width: 60px !important; /* Aumenta el tamaño del Avatar */
+  height: 60px !important; /* Mantiene la proporción */
+  margin-right: 60px;
+}
+
+.flechaRedes {
+  font-size: 40%;
+  vertical-align: middle;
+}
+
+
+
+
+.perfil-page {
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.perfil-header .avatar {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.puntos-chapaton {
+  margin-top: 3rem;
+  background-color: #F09F54;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: left;
+  position: relative;
+}
+
+.titulo-puntos {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.puntos-hexagono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.fila-inferior {
+  margin-top: 1.5rem;
+  padding-left: 0.8rem; /* Desplazamiento hacia la derecha para centrar bajo los espacios */
+}
+
+.punto-ovalo {
+  width: 70px;
+  height: 50px;
+  background-color: #d3cfcf;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.punto-ovalo img.img-pc {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+
+
+.editar-perfil {
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avatar-editar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 0.5rem;
+  display: block;
+}
+
+.cambiar-foto {
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+
+
+
+
+
